@@ -5,7 +5,6 @@ def collatz(number):
         return number // 2
     return 3 * number + 1
 
-
 while 1:
     try:
         user_number = int(input('Please input a positive integer: \n'))
